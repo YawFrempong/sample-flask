@@ -2,5 +2,5 @@ name: sample-flask
 services:
 - name: web
   github:
-    repo: digitalocean/sample-flask
+    repo: YawFrempong/sample-flask
     branch: main
