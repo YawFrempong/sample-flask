@@ -5,7 +5,7 @@ app = Flask(__name__)
 device, tokenizer, model = initialize_model()
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/', methods=['POST'])
 def predict():
     if request.method == 'POST':
         content = request.json
